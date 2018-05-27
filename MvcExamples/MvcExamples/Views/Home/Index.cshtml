@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "Country Example in Mvc";
+}
+
+<h2>Here is an example of VIew  with country Name</h2>
+<ul>
+
+    @*part 5 have been done*@
+
+    @foreach (string countries in ViewBag.county)
+    {
+
+        <Li>@countries </Li>
+    }
+
+    @*view data Example Part-6
+    @foreach (string countries in (List<string>)ViewData["country"])
+    {
+
+        <Li>@countries </Li>
+    }*@
+
+
+
+</ul>
+
+

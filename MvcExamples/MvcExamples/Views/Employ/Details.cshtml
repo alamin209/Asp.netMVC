@@ -1,0 +1,62 @@
+﻿@model MvcExamples.Models.Employ
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Employee Details</title>
+</head>
+<body>
+    <div>
+        <h2>Employ Details</h2>
+        <table style=" font-family:Arial">
+            <tr>
+                <td>
+                    EmployId:
+
+
+                </td>
+                <td>
+                    @Model.EmployId
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    EmployId:
+                </td>
+                <td>
+                    @Model.Name
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    City:
+                </td>
+                <td>
+                    @Model.City
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    Gender:
+                </td>
+                <td>
+                    @Model.Gender
+                </td>
+
+
+            </tr>
+
+        </table>
+
+    </div>
+</body>
+</html>
